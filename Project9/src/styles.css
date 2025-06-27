@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  background: #fdf6e3;
+  padding: 20px;
+}
+
+.app {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.form input, .form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.form button {
+  padding: 10px 20px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.recipe-list {
+  margin-top: 20px;
+  display: grid;
+  gap: 16px;
+}
+
+.recipe-card {
+  background: #fff7e6;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #f1c40f;
+}
+
+.card-actions {
+  margin-top: 10px;
+}
+
+.card-actions button {
+  margin-right: 8px;
+  font-size: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
